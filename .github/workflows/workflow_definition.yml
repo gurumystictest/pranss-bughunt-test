@@ -65,7 +65,7 @@ jobs:
       uses: ./.github/vijejain/cicd-actions-bugbash
       if: ${{ always() }}
       with:
-        name: pranss-github-bughunt
+        name: 33dc559-9ee5-4cef-a412-a1b63e615e7c
         source_path: . # Java source code root
         build_path: target # build artifact(s) directory
         
