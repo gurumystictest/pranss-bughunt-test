@@ -64,10 +64,10 @@ jobs:
     - name: AWS CodeGuru Reviewer
       uses: ./.github/vijejain/cicd-actions-bugbash
       if: ${{ always() }}
-      with:          
+      with:
+        name: pranss-github-bughunt
         source_path: . # Java source code root
         build_path: target # build artifact(s) directory
-        s3_bucket: codeguru-reviewer-bugbash-test
         
 
     - name: Upload review result
